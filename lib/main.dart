@@ -59,7 +59,12 @@ void _incrementnum(){
 
             Text(
               '$_num',
-              style: Theme.of(context).textTheme.caption,
+              style: TextStyle(
+                fontSize:40,
+                fontWeight: FontWeight.bold,
+                fontColor: Purple,
+              ),
+
             ),
 
           ],
@@ -68,7 +73,7 @@ void _incrementnum(){
      floatingActionButton: FloatingActionButton(
        onPressed: _incrementnum,
        tooltip: 'increment',
-       child: Icon(Icons.account_circle),
+       child: Icon(Icons.assignment_returned_outlined),
      ),
      //FloatingActionButton
      // This trailing comma makes auto-formatting nicer for build methods.
