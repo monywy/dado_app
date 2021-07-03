@@ -62,7 +62,7 @@ void _incrementnum(){
               style: TextStyle(
                 fontSize:40,
                 fontWeight: FontWeight.bold,
-                fontColor: Purple,
+                color: Colors.Purple,
               ),
 
             ),
